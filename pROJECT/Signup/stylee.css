@@ -1,0 +1,29 @@
+.signup
+{
+    display:flex;
+    border: 5px solid #FFFF00;
+    justify-content:center;
+    background-color: #FFFFE0;
+    height: 470px;
+    width:320px;
+    display: flex;
+    position:fixed;
+    left: 39%;
+    font-weight:bold;
+    border-radius:15PX;
+    margin-top:5%;
+}
+
+.inner_signup
+{
+    margin-top:13%;
+    height: 300px;
+    font-size: large;
+    text-align: center;
+    background-color: #FFFFE0;
+}
+
+body
+{
+background-image: url("bg.jpeg");
+}

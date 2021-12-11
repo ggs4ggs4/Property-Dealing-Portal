@@ -1,0 +1,52 @@
+.signup
+{   
+    display:flex;
+    border: 5px solid #FFFF00;
+    /*background-image: url("bg.jpeg");*/
+    background-color: #FFFFE0;
+    height:300px;
+    width:250px;
+    display: flex;
+    position:fixed;
+    left: 40%;
+    font-weight:bold;
+    margin-top:10%;
+    border-radius: 15px;
+    justify-content:center;
+    font-size: large;
+}
+
+.inner_signup
+{
+    margin-top:30%;
+    height: 100px;
+    text-align: center;
+    background-color: #FFFFE0;
+    font-size: large;
+}
+
+.inner_signup input[type=email] 
+{
+    
+    height: 7%;
+    text-align: center;
+    background-color: white;
+    font-size: large;
+    border-radius: 2px;
+}
+.inner_signup input[type=password] 
+{
+    
+    height: 7%;
+    text-align: center;
+    background-color: white;
+    font-size: large;
+    border-radius: 2px;
+}
+.inner_signup input[type=submit] 
+{
+    
+    height: 7%;
+    font-size: large;
+
+}

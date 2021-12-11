@@ -1,0 +1,18 @@
+
+
+#Listing_Form
+{
+    position: relative; 
+    left: 27% ; 
+    width: 40% ;
+    
+    
+    padding:40px; 
+    border-radius: 30px;
+    background-color : #d9d9d9;
+}
+
+.headings
+{
+    font-weight: bold;
+}

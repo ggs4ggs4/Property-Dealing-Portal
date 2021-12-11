@@ -1,0 +1,8 @@
+create database project;
+use project;
+
+create table user (person_name varchar(50), phone varchar(10), dob date, age int, email varchar(20) PRIMARY KEY,password varchar(20));
+create table bank (bank_name varchar(50) PRIMARY KEY,rate_of_interest float(4,2), processing_fee int,min_tenure int,max_tenure int);
+create table Property (property_id int PRIMARY KEY, owner varchar(20), type_of_property varchar(20), offered_for varchar(50), Price int, Nearest_railway varchar(30), Nearest_airport varchar(30), nearest_hospital varchar(30), address varchar(200),city varchar(50),description varchar(1000),img_path varchar(1000););
+  
+
